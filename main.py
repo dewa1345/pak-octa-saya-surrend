@@ -1,8 +1,5 @@
-from operatorku.tambah import jumlah
-from operatorku.kurang import kurang
-from operatorku.dot import dot_product
+
 from operatorku.panjang import panjang
-from operatorku.vector_unit import unit_vector
 
 def main():
     while True:
