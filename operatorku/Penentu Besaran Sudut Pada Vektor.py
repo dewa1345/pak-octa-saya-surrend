@@ -14,12 +14,3 @@ def hitung_sudut_vektor(vek_A, vek_B):
 def input_vektor():
     vektor = input("Masukkan komponen vektor (format: x,y,...): ")
     return np.array([float(x) for x in vektor.split(',')])
-
-print("Masukkan komponen vektor pertama:")
-vek_A = input_vektor()
-
-print("Masukkan komponen vektor kedua:")
-vek_B = input_vektor()
-
-sudut = hitung_sudut_vektor(vek_A, vek_B)
-print(f"Besar sudut antara vektor adalah {sudut:.2f} derajat")
