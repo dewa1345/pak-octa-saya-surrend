@@ -43,7 +43,7 @@ def main():
             print("Vektor Unit A:", unit_vector(vek_A))
             print("Vektor Unit B:", unit_vector(vek_B))
         elif pilihan == "6"
-            print("Hasil Sudut Vektor, Penentu_Besaran_Sudut(vek_A, vek_B)
+            print("Hasil Sudut Vektor, Penentu_Besaran_Sudut_Pada_Vektor(vek_A, vek_B)
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
 
