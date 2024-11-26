@@ -3,7 +3,7 @@ from operatorku.kurang import kurang
 from operatorku.dot import dot_product
 from operatorku.panjang import panjang
 from operatorku.vector_unit import unit_vector
-from operatorku.sudut_antara_dua_vektor import Penentu_Besaran_Sudut
+from operatorku.sudut_antara_dua_vektor import Penentu_Besaran_Sudut_Pada_Vektor
 
 def main():
     while True:
