@@ -13,11 +13,12 @@ def main():
         print("3. Dot Product")
         print("4. Panjang Vektor")
         print("5. Vektor Unit")
-        print("6. Keluar")
+        print("6. Sudut Vektor")
+        print("7. Keluar")
 
         pilihan = input("Masukkan nomor 1-6: ")
 
-        if pilihan == "6":
+        if pilihan == "7":
             print("Program selesai.")
             break
 
