@@ -3,6 +3,7 @@ from operatorku.kurang import kurang
 from operatorku.dot import dot_product
 from operatorku.panjang import panjang
 from operatorku.vector_unit import unit_vector
+from operatorku.sudut_antara_dua_vektor import Penentu_Besaran_Sudut_Pada_Vektor
 
 def main():
     while True:
@@ -12,11 +13,12 @@ def main():
         print("3. Dot Product")
         print("4. Panjang Vektor")
         print("5. Vektor Unit")
-        print("6. Keluar")
+        print("6. Sudut Vektor")
+        print("7. Keluar")
 
         pilihan = input("Masukkan nomor 1-6: ")
 
-        if pilihan == "6":
+        if pilihan == "7":
             print("Program selesai.")
             break
 
@@ -40,6 +42,8 @@ def main():
         elif pilihan == "5":
             print("Vektor Unit A:", unit_vector(vek_A))
             print("Vektor Unit B:", unit_vector(vek_B))
+        elif pilihan == "6"
+            print("Hasil Sudut Vektor, Penentu_Besaran_Sudut_Pada_Vektor(vek_A, vek_B)
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
 
